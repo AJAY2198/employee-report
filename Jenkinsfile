@@ -30,6 +30,7 @@ pipeline {
 		 -Dsonar.host.url=http://localhost:9000 \
  		-Dsonar.login=26927e8a588c86f41dab362b375882539d7c8f0c'''
           }
+	}
 	
 	stage('Maven Package'){
 		steps{
